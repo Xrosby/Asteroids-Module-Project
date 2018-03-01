@@ -4,7 +4,7 @@ OpenIDE-Module-Localizing-Bundle: games/asteroids/branding/Bundle.prop
 AutoUpdate-Essential-Module: true
 OpenIDE-Module-Specification-Version: 1.0.1
 OpenIDE-Module-Implementation-Version: 1.0.1-20180301
-OpenIDE-Module-Build-Version: 201803011203
+OpenIDE-Module-Build-Version: 201803011330
 OpenIDE-Module: games.Asteroids.branding
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -13,5 +13,6 @@ OpenIDE-Module-Name: Asteroids-branding
 OpenIDE-Module-Short-Description: <undefined>
 OpenIDE-Module-Long-Description: <undefined>
 OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
- n/1 > 1.27.1
+ n/1 > 1.27.1, org.openide.util.lookup > 8.33.1, org.openide.modules >
+  7.48.1, org.openide.util.ui > 9.6.1
 

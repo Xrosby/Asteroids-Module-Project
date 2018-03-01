@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
+OpenIDE-Module-Install: main/Installer.class
 OpenIDE-Module-Localizing-Bundle: games/core/Bundle.properties
 

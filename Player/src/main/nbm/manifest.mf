@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
+OpenIDE-Module-Install: games/player/Installer.class
 OpenIDE-Module-Localizing-Bundle: games/player/Bundle.properties
-
