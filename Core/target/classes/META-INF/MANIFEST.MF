@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 OpenIDE-Module-Install: main/Installer.class
 OpenIDE-Module-Localizing-Bundle: games/core/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0.1
-OpenIDE-Module-Implementation-Version: 1.0.1-20180301
-OpenIDE-Module-Build-Version: 201803011330
+OpenIDE-Module-Implementation-Version: 1.0.1-20180302
+OpenIDE-Module-Build-Version: 201803021312
 OpenIDE-Module: games.Core
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -12,22 +12,30 @@ OpenIDE-Module-Name: Core
 OpenIDE-Module-Short-Description: <undefined>
 OpenIDE-Module-Long-Description: <undefined>
 X-Class-Path: ext/games.Core/com-badlogicgames-gdx/gdx.jar ext/games.C
- ore/com-badlogicgames-gdx/gdx-backend-lwjgl.jar ext/games.Core/org-lw
- jgl-lwjgl/lwjgl.jar ext/games.Core/org-lwjgl-lwjgl/lwjgl-platform-nat
- ives-windows.jar ext/games.Core/org-lwjgl-lwjgl/lwjgl-platform-native
- s-linux.jar ext/games.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx
- .jar ext/games.Core/net-java-jinput/jinput.jar ext/games.Core/net-jav
- a-jutils/jutils.jar ext/games.Core/org-lwjgl-lwjgl/lwjgl_util.jar ext
- /games.Core/com-badlogicgames-jlayer/jlayer.jar ext/games.Core/org-jc
- raft/jorbis.jar
-Maven-Class-Path: com.badlogicgames.gdx:gdx:1.7.2 com.badlogicgames.gd
- x:gdx-backend-lwjgl:1.7.2 org.lwjgl.lwjgl:lwjgl:2.9.2 org.lwjgl.lwjgl
- :lwjgl-platform:2.9.2:natives-windows org.lwjgl.lwjgl:lwjgl-platform:
- 2.9.2:natives-linux org.lwjgl.lwjgl:lwjgl-platform:2.9.2:natives-osx 
- net.java.jinput:jinput:2.0.5 net.java.jutils:jutils:1.0.0 org.lwjgl.l
- wjgl:lwjgl_util:2.9.2 com.badlogicgames.jlayer:jlayer:1.0.1-gdx org.j
- craft:jorbis:0.0.17
+ ore/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar ext/games.
+ Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar ext/games.Core/org-l
+ wjgl-lwjgl/lwjgl.jar ext/games.Core/org-lwjgl-lwjgl/lwjgl-platform-na
+ tives-windows.jar ext/games.Core/org-lwjgl-lwjgl/lwjgl-platform-nativ
+ es-linux.jar ext/games.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-os
+ x.jar ext/games.Core/net-java-jinput/jinput.jar ext/games.Core/net-ja
+ va-jutils/jutils.jar ext/games.Core/org-lwjgl-lwjgl/lwjgl_util.jar ex
+ t/games.Core/com-badlogicgames-jlayer/jlayer.jar ext/games.Core/org-j
+ craft/jorbis.jar ext/games.Core/com-badlogicgames-gdx/gdx-box2d.jar e
+ xt/games.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-deskto
+ p.jar ext/games.Core/com-badlogicgames-gdx/gdx-freetype.jar ext/games
+ .Core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar
+Maven-Class-Path: com.badlogicgames.gdx:gdx:1.5.0 com.badlogicgames.gd
+ x:gdx-platform:1.5.0:natives-desktop com.badlogicgames.gdx:gdx-backen
+ d-lwjgl:1.5.0 org.lwjgl.lwjgl:lwjgl:2.9.1 org.lwjgl.lwjgl:lwjgl-platf
+ orm:2.9.1:natives-windows org.lwjgl.lwjgl:lwjgl-platform:2.9.1:native
+ s-linux org.lwjgl.lwjgl:lwjgl-platform:2.9.1:natives-osx net.java.jin
+ put:jinput:2.0.5 net.java.jutils:jutils:1.0.0 org.lwjgl.lwjgl:lwjgl_u
+ til:2.9.1 com.badlogicgames.jlayer:jlayer:1.0.1-gdx org.jcraft:jorbis
+ :0.0.17 com.badlogicgames.gdx:gdx-box2d:1.5.0 com.badlogicgames.gdx:g
+ dx-box2d-platform:1.5.0:natives-desktop com.badlogicgames.gdx:gdx-fre
+ etype:1.5.0 com.badlogicgames.gdx:gdx-freetype-platform:1.5.0:natives
+ -desktop
 OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
- n/1 > 1.27.1, games.Common > 1.0.1, org.openide.util.lookup > 8.33.1,
-  org.openide.modules > 7.48.1, org.openide.util.ui > 9.6.1
+ n/1 > 1.27.1, org.openide.modules > 7.48.1, org.openide.util.ui > 9.6
+ .1, games.Common > 1.0.1, org.openide.util.lookup > 8.33.1
 

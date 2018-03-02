@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="games.Player">
-    <module_version install_time="1519911049831" last="true" origin="installer" specification_version="1.0.1">
+    <module_version install_time="1519996337718" last="true" origin="installer" specification_version="1.0.1">
         <file crc="3261327582" name="config/Modules/games-Player.xml"/>
-        <file crc="2180874655" name="modules/games-Player.jar"/>
+        <file crc="1801314131" name="modules/games-Player.jar"/>
     </module_version>
 </module>

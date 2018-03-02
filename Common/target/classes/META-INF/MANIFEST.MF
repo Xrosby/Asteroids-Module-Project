@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 OpenIDE-Module-Localizing-Bundle: games/common/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0.1
-OpenIDE-Module-Implementation-Version: 1.0.1-20180301
-OpenIDE-Module-Build-Version: 201803011330
+OpenIDE-Module-Implementation-Version: 1.0.1-20180302
+OpenIDE-Module-Build-Version: 201803021312
 OpenIDE-Module: games.Common
 OpenIDE-Module-Public-Packages: data.*, entityparts.*, events.*, servi
  ces.*, util.*

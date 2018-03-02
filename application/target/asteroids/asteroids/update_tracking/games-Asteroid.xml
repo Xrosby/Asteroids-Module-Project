@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="games.Asteroid">
+    <module_version install_time="1519996337737" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="4055944862" name="config/Modules/games-Asteroid.xml"/>
+        <file crc="4239352556" name="modules/games-Asteroid.jar"/>
+    </module_version>
+</module>

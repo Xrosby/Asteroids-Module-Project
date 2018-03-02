@@ -17,10 +17,7 @@ import org.openide.util.lookup.ServiceProvider;
  *
  * @author jcs
  */
-@ServiceProviders(value = {
-    @ServiceProvider(service = IEntityProcessingService.class)
-}
-)
+@ServiceProvider(service = IEntityProcessingService.class)
 
 public class PlayerControlSystem implements IEntityProcessingService {
 
@@ -50,7 +47,6 @@ public class PlayerControlSystem implements IEntityProcessingService {
 
     private void updateShape(Entity entity) {
 
-       
         PositionPart positionPart = entity.getPart(PositionPart.class);
         ShapePart shapePart = entity.getPart(ShapePart.class);
 

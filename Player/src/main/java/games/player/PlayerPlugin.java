@@ -9,9 +9,7 @@ import data.EntityType;
 import org.openide.util.lookup.ServiceProviders;
 import org.openide.util.lookup.ServiceProvider;
 
-@ServiceProviders(value = {
-    @ServiceProvider(service = IGamePluginService.class)
-})
+@ServiceProvider(service = IGamePluginService.class)
 
 public class PlayerPlugin implements IGamePluginService {
 
@@ -22,7 +20,7 @@ public class PlayerPlugin implements IGamePluginService {
 
     @Override
     public void start(GameData gameData, World world) {
-        
+
         // Add entities to the world
         player = createPlayerShip(gameData);
         world.addEntity(player);
@@ -38,11 +36,11 @@ public class PlayerPlugin implements IGamePluginService {
         float y = gameData.getDisplayHeight() / 2;
         float radians = 3.1415f / 2;
         float radius = 4;
-        
+
         //Set shape of player ship
         float[] shapex = new float[4];
         float[] shapey = new float[4];
-        
+
         shapex[0] = (float) (x + Math.cos(radians) * 8);
         shapey[0] = (float) (y + Math.sin(radians) * 8);
 
@@ -55,14 +53,12 @@ public class PlayerPlugin implements IGamePluginService {
         shapex[3] = (float) (x + Math.cos(radians + 4 * 3.1415f / 5) * 8);
         shapey[3] = (float) (y + Math.sin(radians + 4 * 3.1415f / 5) * 8);
 
-        
-        
         Entity playerShip = new Player();
         playerShip.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
         playerShip.add(new PositionPart(x, y, radians));
         playerShip.add(new ShapePart(shapex, shapey, radius));
         playerShip.setType(EntityType.PLAYER);
-        
+
         return playerShip;
     }
 
