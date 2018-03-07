@@ -1,9 +1,9 @@
-platform=1519996342000
-cluster.asteroids=1519996342000
-cluster.bin=1519996342000
-cluster.etc=1519996342000
-cluster.platform=1519996342000
-user=1519996342000
+platform=1519999446000
+cluster.asteroids=1519999446000
+cluster.bin=1519999446000
+cluster.etc=1519999446000
+cluster.platform=1519999446000
+user=1519999446000
 crc=7
 locale=en_US
 branding=asteroids

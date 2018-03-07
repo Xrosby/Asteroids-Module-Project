@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Friday, March 2, 2018 2:12:22 PM CET
+>Log Session: Friday, March 2, 2018 3:04:07 PM CET
 >System Info: 
   Product Version         = Asteroids 201609300101
   Operating System        = Mac OS X version 10.11.6 running on x86_64
@@ -39,11 +39,11 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.bootstrap/1 [2.76.1 201609300101]
 	org.netbeans.core.startup/1 [1.62.1.1 201609300101]
 	org.netbeans.api.annotations.common/1 [1.27.1 201609300101]
-	games.Common [1.0.1 1.0.1-20180302 201803021312]
-	games.Player [1.0.1 1.0.1-20180302 201803021312]
-	games.Enemy [1.0.1 1.0.1-20180302 201803021312]
-	games.Core [1.0.1 1.0.1-20180302 201803021312]
-	games.CollisionDetection [1.0.1 1.0.1-20180302 201803021312]
-	games.Bullet [1.0.1 1.0.1-20180302 201803021312]
-	games.Asteroids.branding [1.0.1 1.0.1-20180302 201803021312]
-	games.Asteroid [1.0.1 1.0.1-20180302 201803021312]
+	games.Common [1.0.1 1.0.1-20180302 201803021403]
+	games.Player [1.0.1 1.0.1-20180302 201803021403]
+	games.Enemy [1.0.1 1.0.1-20180302 201803021403]
+	games.Core [1.0.1 1.0.1-20180302 201803021403]
+	games.CollisionDetection [1.0.1 1.0.1-20180302 201803021403]
+	games.Bullet [1.0.1 1.0.1-20180302 201803021403]
+	games.Asteroids.branding [1.0.1 1.0.1-20180302 201803021403]
+	games.Asteroid [1.0.1 1.0.1-20180302 201803021403]

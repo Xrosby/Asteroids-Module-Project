@@ -3,7 +3,7 @@ OpenIDE-Module-Install: games/player/Installer.class
 OpenIDE-Module-Localizing-Bundle: games/player/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0.1
 OpenIDE-Module-Implementation-Version: 1.0.1-20180302
-OpenIDE-Module-Build-Version: 201803021312
+OpenIDE-Module-Build-Version: 201803021403
 OpenIDE-Module: games.Player
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

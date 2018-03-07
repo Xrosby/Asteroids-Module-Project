@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="games.Common">
-    <module_version install_time="1519996337730" last="true" origin="installer" specification_version="1.0.1">
+    <module_version install_time="1519999440533" last="true" origin="installer" specification_version="1.0.1">
         <file crc="2481331668" name="config/Modules/games-Common.xml"/>
-        <file crc="2030764320" name="modules/games-Common.jar"/>
+        <file crc="1455383302" name="modules/games-Common.jar"/>
     </module_version>
 </module>
