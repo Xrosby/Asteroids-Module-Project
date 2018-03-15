@@ -10,7 +10,6 @@ import data.World;
 import entityparts.PositionPart;
 import entityparts.MovingPart;
 import entityparts.ShapePart;
-import org.openide.util.lookup.ServiceProviders;
 import org.openide.util.lookup.ServiceProvider;
 
 /**

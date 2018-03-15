@@ -46,6 +46,12 @@ public class Game
         Gdx.input.setInputProcessor(
                 new GameInputProcessor(gameData)
         );
+        
+        
+        // TODO: Her skal være en lookup listener
+        // TODO: Lookup listener skal oprettes i en metode i Game klassen
+       
+        
 
         // Lookup all Game Plugins using ServiceLoader
         for (IGamePluginService iGamePlugin : getPluginServices()) {

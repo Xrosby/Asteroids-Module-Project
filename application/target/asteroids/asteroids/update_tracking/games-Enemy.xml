@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="games.Enemy">
-    <module_version install_time="1519999440578" last="true" origin="installer" specification_version="1.0.1">
+    <module_version install_time="1520503955762" last="true" origin="installer" specification_version="1.0.1">
         <file crc="1175012259" name="config/Modules/games-Enemy.xml"/>
-        <file crc="3740850333" name="modules/games-Enemy.jar"/>
+        <file crc="2098398506" name="modules/games-Enemy.jar"/>
     </module_version>
 </module>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="games.CollisionDetection">
-    <module_version install_time="1519999440565" last="true" origin="installer" specification_version="1.0.1">
+    <module_version install_time="1520503955756" last="true" origin="installer" specification_version="1.0.1">
         <file crc="1521891691" name="config/Modules/games-CollisionDetection.xml"/>
-        <file crc="3725369380" name="modules/games-CollisionDetection.jar"/>
+        <file crc="2522288761" name="modules/games-CollisionDetection.jar"/>
     </module_version>
 </module>
